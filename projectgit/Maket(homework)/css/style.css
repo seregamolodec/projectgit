@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+body {
+    padding-top: 50px;
+    background: url(../img/Layer34.png);
+    font-family: font-family: 'Open Sans', sans-serif;
+
+}
+
+.starter-template {
+    padding: 40px 15px;
+    text-align: center;
+    height: 650px;
+    
+}
+
+.starter-template > h1 {
+    color: beige;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.navbar {
+    background: transparent;
+    width: 100%;
+    height: 100px;
+    display: inline-block;
+}
+
+.navbar-inverse {
+    border: none;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+    color: #fff;
+    background: transparent;
+    color: #a4b3b0;
+}
+
+.lead {
+    color: beige;
+}
+
+.fom {
+    color: white;
+    width: 200px;
+    height: 50px;
+    background-color: crimson;
+    border-radius: 2px;
+    margin: 80px auto;
+}
+
+.fom > a {
+    text-decoration: none;
+    color: aliceblue;
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 15px 1px 0 0;
+
+}
+
+.navbar-nav {
+    float: right;
+    margin: 0;
+}
+
+.block1 {
+    background: white;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.col-md-4 {
+    padding: 20px;
+}
+
+.block2 >.container-fluid{
+    padding-right: 0px;
+padding-left: 0px;
+}
+
+.col-md-3 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 0px;
+    padding-left: 0px;
+    height: 245px;
+}
+
+.col-md-3 > img {
+    border: 1px solid white;
+    width: 100%;
+    height: 100%;
+}
+.block3{
+    color:aliceblue;
+    background-color: #3a3e64;
+    text-align: center;
+}
+h6{
+    font-weight: bold;
+}
+.icons{
+    border: 1px solid white;
+    display: inline-block;
+    padding: 5px;
+}
+footer{
+    color: aliceblue;
+    text-align: center;
+    background: 313454;
+}
+footer .container p{
+    color: aliceblue;
+    margin: 20px 0 10px;
+    margin-top: 60px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+}
